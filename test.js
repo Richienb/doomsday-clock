@@ -1,13 +1,9 @@
 import test from "ava"
-import theModule from "."
+import doomsdayClock from "."
 
-test("main", (t) => {
-    t.throws(() => {
-        theModule(123)
-    }, {
-        instanceOf: TypeError,
-        message: "Expected a string, got number",
-    })
-
-    t.is(theModule("unicorns"), "unicorns & rainbows")
+test("main", async (t) => {
+    const data = await doomsdayClock()
+    t.is(typeof data.minutes, "number")
+    t.is(typeof data.source, "string")
+    t.is(typeof data.time, "string")
 })
