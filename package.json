@@ -1,6 +1,6 @@
 {
     "name": "doomsday-clock",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Get the time until midnight according to the Doomsday Clock.",
     "repository": "https://github.com/Richienb/doomsday-clock.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
