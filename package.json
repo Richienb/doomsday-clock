@@ -11,7 +11,7 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=10"
+        "node": ">=8.3"
     },
     "scripts": {
         "lint": "eslint .",
@@ -22,12 +22,12 @@
         "clock"
     ],
     "dependencies": {
-        "bluebird": "^3.7.1",
         "cheerio": "^1.0.0-rc.3",
         "dayjs": "^1.8.16",
-        "got": "^9.6.0",
+        "ky": "^0.16.1",
+        "ky-universal": "^0.3.0",
         "lodash": "^4.17.15",
-        "to-bluebird": "^1.0.2",
+        "named-regexp-groups": "^1.0.5",
         "universalify": "^0.1.2"
     },
     "devDependencies": {
