@@ -33,7 +33,7 @@
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint": "^6.5.1",
-        "eslint-config-richienb": "^0.2.0"
+        "eslint-config-richienb": "^0.3.0"
     },
     "eslintConfig": {
         "extends": "richienb/node"
