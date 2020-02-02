@@ -24,7 +24,7 @@
     "dependencies": {
         "cheerio": "^1.0.0-rc.3",
         "dayjs": "^1.8.16",
-        "ky": "^0.16.1",
+        "ky": "^0.17.0",
         "ky-universal": "^0.3.0",
         "lodash": "^4.17.15",
         "named-regexp-groups": "^1.0.5",
